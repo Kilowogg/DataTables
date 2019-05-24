@@ -7,10 +7,10 @@ To allow query in server_processing.php $table declaration.
 
 
 Edit ssp.class.php and replace all instances of FROM `$table` with FROM $table to remove backticks. You will be responsible for escaping your table names if they contain reserved keywords.
-
-
-
-
+ 
+ 
+ 
+ 
 From : https://datatables.net/forums/discussion/21242/invalid-json-response-when-adding-some-utf-8-characters
 
 
