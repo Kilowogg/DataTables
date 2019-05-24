@@ -3,7 +3,7 @@
 From : https://www.gyrocode.com/articles/jquery-datatables-using-where-join-and-group-by-with-ssp-class-php/
 
 
-To allow query in server_processing.php $table declaration.
+To allow JOIN queries in server_processing.php $table declaration, but not applied here, I decided to make views.
 
 
 Edit ssp.class.php and replace all instances of FROM `$table` with FROM $table to remove backticks. You will be responsible for escaping your table names if they contain reserved keywords.
